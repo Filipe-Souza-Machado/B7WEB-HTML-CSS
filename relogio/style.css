@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0px;
+    background:url('/images/2street.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#relogio{
+    height: 350px;
+    width: 800px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(41, 41, 41);
+
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#relogio span{
+    font-size: 80px;
+    font-family: JetBrains Mono, monospace, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.pontos{
+    font-size: 60px;
+}
