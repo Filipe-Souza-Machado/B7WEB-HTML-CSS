@@ -22,14 +22,15 @@ body{
     gap: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(53, 53, 53);
+    opacity: 0.8;
 
 }
 
 .caixa{
     width: 200px;
     height: 200px;
-    background-color: beige;
+    background-color: rgb(201, 201, 95);
     border-radius: 20px;
     color: black;
     display: flex;
@@ -47,3 +48,4 @@ body{
 .pontos{
     font-size: 60px;
 }
+
