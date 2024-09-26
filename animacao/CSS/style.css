@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+}
+
+.blue{
+    background:url(../image/red_bull_rb18_2022_formula_1_4k-1920x1080.jpg);
+    width: 100vh;
+    height: 100vh;
+}
+
+.red{
+    background: url(../image/ferrari_f1_75_2022_formula_1_5k_2-1920x1080.jpg);
+}
+
+.green{
+    background: url(../image/mclaren_mcl38_formula_1_2024_4k-1920x1080.jpg);
+}
