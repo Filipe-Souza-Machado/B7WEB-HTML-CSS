@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body{
+  height: 100vh;
+  background-color: rgb(32, 32, 32);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../image/principal.png);
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.main {
+
+  display: flex;
+  height: 120px;
+  width: auto;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0px;
+}
+
+.btn{
+  color: #ffffff;
+  background-color: #e6e6e6;
+  text-decoration: none;
+  border: none;
+  padding: 20px 30px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  width: 120px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-red_Bull{
+  color: #C0BFBF;
+  background: #000B8D;
+  box-shadow: 0 0 25px #000B8D;
+}
+
+.btn-red_Bull:hover{
+  box-shadow: 0 0 5px #000B8D,
+              0 0 25px #000B8D,
+              0 0 50px #000B8D,
+              0 0 100px #000B8D;
+}
+
+.btn-mercedes{
+  color: #C8CCCE;
+  background: #00A19B;
+  box-shadow: 0 0 25px #00A19B;
+}
+
+.btn-mercedes:hover{
+  box-shadow: 0 0 5px #00A19B,
+              0 0 25px #00A19B,
+              0 0 50px #00A19B,
+              0 0 100px #00A19B;
+}
+
+.btn-ferrari{
+  color: #000000;
+  background: #EF1A2D;
+  box-shadow: 0 0 25px #EF1A2D;
+}
+
+.btn-ferrari:hover{
+  box-shadow: 0 0 5px #EF1A2D,
+              0 0 25px #EF1A2D,
+              0 0 50px #EF1A2D,
+              0 0 100px #EF1A2D;
+}
+
+.btn-mclaren{
+  color: #000000;
+  background: #FF8000;
+  box-shadow: 0 0 25px #FF8000;
+}
+
+.btn-mclaren:hover{
+  box-shadow: 0 0 5px #FF8000,
+              0 0 25px #FF8000,
+              0 0 50px #FF8000,
+              0 0 100px #FF8000;
+}
+
+.btn-aston_Martin{
+  color: #FFFFFF;
+  background: #037A68;
+  box-shadow: 0 0 25px #037A68;
+}
+
+.btn-aston_Martin:hover{
+  box-shadow: 0 0 5px #037A68,
+              0 0 25px #037A68,
+              0 0 50px #037A68,
+              0 0 100px #037A68;
+}
+
+.btn-alpine{
+  color: #02192B;
+  background: #FD4BC7;
+  box-shadow: 0 0 25px #FD4BC7;
+}
+
+.btn-alpine:hover{
+  box-shadow: 0 0 5px #FD4BC7,
+              0 0 25px #FD4BC7,
+              0 0 50px #FD4BC7,
+              0 0 100px #FD4BC7;
+}
+
+.btn-williams{
+  color: #000000;
+  background: #00A0DE;
+  box-shadow: 0 0 25px #00A0DE;
+}
+
+.btn-williams:hover{
+  box-shadow: 0 0 5px #00A0DE,
+              0 0 25px #00A0DE,
+              0 0 50px #00A0DE,
+              0 0 100px #00A0DE;
+}
+
+.btn-visa{
+  color: #c5c4ca;
+  background: #05044e;
+  box-shadow: 0 0 25px #05044e;
+}
+
+.btn-visa:hover{
+  box-shadow: 0 0 5px #05044e,
+              0 0 25px #05044e,
+              0 0 50px #05044e,
+              0 0 100px #05044e;
+}
+
+.btn-sauber{
+  color: #000000;
+  background: #52E252;
+  box-shadow: 0 0 25px #52E252;
+}
+
+.btn-sauber:hover{
+  box-shadow: 0 0 5px #52E252,
+              0 0 25px #52E252,
+              0 0 50px #52E252,
+              0 0 100px #52E252;
+}
+
+.btn-haas{
+  color: #000000;
+  background: #B6BABD;
+  box-shadow: 0 0 25px #B6BABD;
+}
+
+.btn-haas:hover{
+  box-shadow: 0 0 5px #B6BABD,
+              0 0 25px #B6BABD,
+              0 0 50px #B6BABD,
+              0 0 100px #B6BABD;
+}
+
+.redBull{
+  background: url(../image/red-bull.jpg);
+  background-size: auto;
+}
+
+.mercedes{
+  background: url(../image/mercedes.jpg);
+}
+
+.ferrari{
+  background: url(../image/ferrari.jpg);
+}
+
+.mclaren{
+  background: url(../image/maclaren.jpg);
+}
+
+.astonMartin{
+  background: url(../image/aston-Martin.jpg);
+}
+
+.alpine{
+  background: url(../image/alpine.jpg);
+}
+
+.williams{
+  background: url(../image/williams.jpg);
+}
+
+.visa{
+  background: url(../image/visa2.jpg);
+}
+
+.sauber{
+  background: url(../image/sauber.jpg);
+}
+
+.haas{
+  background: url(../image/haas.png);
+}
