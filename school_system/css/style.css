@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url(../image/calculo.jpg);
+    background-size: cover;    
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    background-color: #FCC7FF;
+    opacity: 0.9;
+    width: 300px;
+    height: 390px;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.central h2{
+    font-size: 25px;
+    color: #FFF;
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.central input{
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.central span{
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: "Pacifico", cursive;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.central input{
+    padding: 4px;
+}
+
+.central input:focus{
+    background-color: #C7FFE9;
+}
+
+.central button{
+    width: 150px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Pacifico", cursive;
+    text-transform: uppercase;
+}
+
+.central button:hover{
+    background-color: #B4E6FF;
+    width: 190px;
+    padding: 18px;
+    font-size: 19px;
+    transition: 0.4s;
+}
+
+#resultado{
+    font-size: 12px;
+    font-weight: 700;
+    font-family:cursive;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-top: 20px;
+}
