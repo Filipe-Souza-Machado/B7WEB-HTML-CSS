@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    font-family:  "JetBrains Mono", monospace;
+    color: #fcca27;
+}
+
+body {
+    background-color: rgb(49, 49, 49);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;    
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+.central{
+    background-color: #ffffff;
+    opacity: 1.0;
+    width: 300px;
+    height: 590px;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.central-principal{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+
+.central-image{
+    height: 60px;
+    width: 58px;
+    align-self: flex-start;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.central-title {
+    height: 70px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central-title h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.central-inputs{
+    width: 340px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.central-inputs input{
+    height: 30px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #04823e;
+}
+
+.central-inputs input::placeholder{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.central button{
+    width: 150px;
+    height: 100px;
+    margin: 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #04823e;
+    box-shadow: 0 0 25px #04823e;
+}
+
+.central button:hover{
+    width: 170px;
+    padding: 18px;
+    font-size: 19px;
+    transition: 0.5s;
+    box-shadow: 0 0 5px #04823e,
+    0 0 25px #04823e,
+    0 0 50px #04823e,
+    0 0 75px #04823e;
+}
+
+#resultado{
+    font-size: 20px;
+    font-weight: 700;
+    font-family:cursive;
+    text-transform: uppercase;
+    color: #fcca27;
+    margin-top: 20px;
+}
