@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    font-family: "JetBrains Mono", monospace;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: rgb(10, 10, 10);
+    background-size: cover;    
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.central{
+    background-color: #272727;
+    width: 400px;
+    height: 490px;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.central-title{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+}
+
+.central-title h1{
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.central-inputs{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.central-inputs input{
+    height: 40px;
+    width: 400px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: #5f5f5f;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.central-inputs input::placeholder{
+    color: #fff;
+    font-size: 20px;
+}
+
+.central-inputs span{
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.central button{
+    color: #000000;
+    background: #52E252;
+    box-shadow: 0 0 25px #52E252;
+    width: 150px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.central button:hover{
+    box-shadow: 0 0 5px #52E252,
+              0 0 25px #52E252,
+              0 0 50px #52E252,
+              0 0 100px #52E252;
+    transition: 0.7s;
+}
+
+#resultado{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-top: 20px;
+}
