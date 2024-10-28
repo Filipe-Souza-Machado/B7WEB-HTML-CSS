@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="IMAGE/calculadora_icone.png">
+    <title>Calculadora de juros compostos</title>
+</head>
+<body>
+    
+    <main id="container">
+        <div id="Calculator">
+            <h2>calculadora de juros compostos</h2>
+
+            <div id="input_box">
+                <div class="input-field">
+                    <label for="value">Valor inicial (capital):</label>
+                    <input id="value" type="number" value="0">
+                </div>
+
+                <div class="input-field">
+                    <label for="fee">Taxa de juros a a.m:</label>
+                    <input id="fee" type="number" value="0">
+                </div>
+
+                <div class="input-field">
+                    <label for="time">Tempo de rendimento a.m:</label>
+                    <input id="time" type="number" value="0">
+
+                </div>
+            </div>
+
+            <div id="result">
+                <h4>Resultado</h4>
+                <span id="total">R$ 0.00</span>
+            </div>
+
+            <button id="calculate">Calcular</button>
+        </div>
+    </main>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
