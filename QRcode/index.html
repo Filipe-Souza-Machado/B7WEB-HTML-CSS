@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imagens/codigo-qr.png">
+    <title>Qrcode</title>
+</head>
+<body>
+
+    <video id="fundo" src="video/video-qrcode.mp4" autoplay muted loop></video>
+
+    <div class="central">
+        <h1>Gerador de QRcode V1.0</h1>
+
+        <div>
+            <input id="texto" type="text" placeholder="Digite uma Url">
+            <button id="btn-gerar">Gerar</button>
+        </div>
+
+        <div id="qrcode"></div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
